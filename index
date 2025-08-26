@@ -51,7 +51,7 @@ $(function(){
 
 <div class="main">
 
-	<p class="bun">発送するものを選び、発送ボタンを押しましょう。</p>
+	<p class="bun">発送するものを選び、<br>発送ボタンを押しましょう。</p>
 	<div class="nazo">
 	<img src="image/nazo1.png" class="nazo">
 	</div>
