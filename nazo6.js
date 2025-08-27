@@ -8,29 +8,29 @@ var url = "https://ja.wikipedia.org/wiki/%E5%A4%A7%E4%B8%8D%E6%AD%A3%E8%A7%A3"
 button.addEventListener('click', () => {
 
 if (one.checked && two.checked && three.checked && four.checked && five.checked && six.checked && seven.checked && nine.checked && eight.checked) {
-alert("‘S‚Ä‚Ì“ä‚ğ‘—‚ê‚½‚çŠ®¬‚·‚é‚ªA1‚Â1‚Â‘—‚é‚Æ‘½‚·‚¬‚Ä‘——¿‚ª‚©‚©‚é‚È...");
+alert("å…¨ã¦ã®è¬ã‚’é€ã‚ŒãŸã‚‰å®Œæˆã™ã‚‹ãŒã€1ã¤1ã¤é€ã‚‹ã¨å¤šã™ãã¦é€æ–™ãŒã‹ã‹ã‚‹ãª...");
 } else if (one.checked && drawer_input.checked) {
-alert("‚Ç‚¤‚â‚çŠÔˆá‚Á‚Ä‚¢‚é‚æ‚¤‚¾");
+alert("ã©ã†ã‚„ã‚‰é–“é•ã£ã¦ã„ã‚‹ã‚ˆã†ã ");
 } else if (two.checked && drawer_input.checked) {
-alert("‚Ç‚¤‚â‚çŠÔˆá‚Á‚Ä‚¢‚é‚æ‚¤‚¾");
+alert("ã©ã†ã‚„ã‚‰é–“é•ã£ã¦ã„ã‚‹ã‚ˆã†ã ");
 } else if (three.checked && drawer_input.checked) {
-alert("‚Ç‚¤‚â‚çŠÔˆá‚Á‚Ä‚¢‚é‚æ‚¤‚¾");
+alert("ã©ã†ã‚„ã‚‰é–“é•ã£ã¦ã„ã‚‹ã‚ˆã†ã ");
 } else if (four.checked && drawer_input.checked) {
-alert("‚Ç‚¤‚â‚çŠÔˆá‚Á‚Ä‚¢‚é‚æ‚¤‚¾");
+alert("ã©ã†ã‚„ã‚‰é–“é•ã£ã¦ã„ã‚‹ã‚ˆã†ã ");
 } else if (five.checked && drawer_input.checked) {
-alert("‚Ç‚¤‚â‚çŠÔˆá‚Á‚Ä‚¢‚é‚æ‚¤‚¾");
+alert("ã©ã†ã‚„ã‚‰é–“é•ã£ã¦ã„ã‚‹ã‚ˆã†ã ");
 } else if (six.checked && drawer_input.checked) {
-alert("‚Ç‚¤‚â‚çŠÔˆá‚Á‚Ä‚¢‚é‚æ‚¤‚¾");
+alert("ã©ã†ã‚„ã‚‰é–“é•ã£ã¦ã„ã‚‹ã‚ˆã†ã ");
 } else if (seven.checked && drawer_input.checked) {
-alert("‚Ç‚¤‚â‚çŠÔˆá‚Á‚Ä‚¢‚é‚æ‚¤‚¾");
+alert("ã©ã†ã‚„ã‚‰é–“é•ã£ã¦ã„ã‚‹ã‚ˆã†ã ");
 } else if (eight.checked && drawer_input.checked) {
-alert("‚Ç‚¤‚â‚çŠÔˆá‚Á‚Ä‚¢‚é‚æ‚¤‚¾");
+alert("ã©ã†ã‚„ã‚‰é–“é•ã£ã¦ã„ã‚‹ã‚ˆã†ã ");
 } else if (nine.checked && drawer_input.checked) {
-alert("‚Ç‚¤‚â‚çŠÔˆá‚Á‚Ä‚¢‚é‚æ‚¤‚¾");
+alert("ã©ã†ã‚„ã‚‰é–“é•ã£ã¦ã„ã‚‹ã‚ˆã†ã ");
 } else if (drawer_input.checked) {
 location.href = "clearstk.htm"
 } else {
-alert("‚Ç‚¤‚â‚çŠÔˆá‚Á‚Ä‚¢‚é‚æ‚¤‚¾");
+alert("ã©ã†ã‚„ã‚‰é–“é•ã£ã¦ã„ã‚‹ã‚ˆã†ã ");
 }
 
 });

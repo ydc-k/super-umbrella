@@ -8,19 +8,19 @@ var url = "https://ja.wikipedia.org/wiki/%E5%A4%A7%E4%B8%8D%E6%AD%A3%E8%A7%A3"
 button.addEventListener('click', () => {
 
 if (one.checked && two.checked && seven.checked && nine.checked && three.checked) {
-alert("‚Ç‚¤‚â‚çŠÔˆá‚Á‚Ä‚¢‚é‚æ‚¤‚¾");
+alert("ã©ã†ã‚„ã‚‰é–“é•ã£ã¦ã„ã‚‹ã‚ˆã†ã ");
 } else if (one.checked && two.checked && seven.checked && nine.checked && four.checked) {
-alert("‚Ç‚¤‚â‚çŠÔˆá‚Á‚Ä‚¢‚é‚æ‚¤‚¾");
+alert("ã©ã†ã‚„ã‚‰é–“é•ã£ã¦ã„ã‚‹ã‚ˆã†ã ");
 } else if (one.checked && two.checked && seven.checked && nine.checked && five.checked) {
-alert("‚Ç‚¤‚â‚çŠÔˆá‚Á‚Ä‚¢‚é‚æ‚¤‚¾");
+alert("ã©ã†ã‚„ã‚‰é–“é•ã£ã¦ã„ã‚‹ã‚ˆã†ã ");
 } else if (one.checked && two.checked && seven.checked && nine.checked && six.checked) {
-alert("‚Ç‚¤‚â‚çŠÔˆá‚Á‚Ä‚¢‚é‚æ‚¤‚¾");
+alert("ã©ã†ã‚„ã‚‰é–“é•ã£ã¦ã„ã‚‹ã‚ˆã†ã ");
 } else if (one.checked && two.checked && seven.checked && nine.checked && eight.checked) {
-alert("‚Ç‚¤‚â‚çŠÔˆá‚Á‚Ä‚¢‚é‚æ‚¤‚¾");
+alert("ã©ã†ã‚„ã‚‰é–“é•ã£ã¦ã„ã‚‹ã‚ˆã†ã ");
 }   else if (one.checked && two.checked && seven.checked && nine.checked) {
 location.href = "6hsmtvv.htm"
 } else {
-alert("‚Ç‚¤‚â‚çŠÔˆá‚Á‚Ä‚¢‚é‚æ‚¤‚¾");
+alert("ã©ã†ã‚„ã‚‰é–“é•ã£ã¦ã„ã‚‹ã‚ˆã†ã ");
 }
 
 });
