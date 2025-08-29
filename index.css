@@ -24,6 +24,15 @@ margin-top: 5%;
 text-align: center;
 }
 
+.start-bun {
+text-align: center;
+}
+
+font.number {
+font-size: 30px;
+color: #f24949;
+}
+
 .nazo {
 text-align: center;
 }
@@ -362,6 +371,26 @@ display: inline-block;
   color: #fff;
 }
 
+.start {
+    width: 50%;
+    padding: 8px 10px;
+    border: 1px solid #555;
+    border-radius: 3px;
+    background-color: transparent;
+    color: #e5e5e5;
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.start:focus {
+    outline: 1px solid #fff;
+}
+
+.start::placeholder {
+    color: #666;
+}
+
 .play-ex {
 display: block;
 padding: 0px -30px;
@@ -377,5 +406,6 @@ padding: 0px -30px;
 font-size: 100px;
 color: #fff;
 }
+
 
 
