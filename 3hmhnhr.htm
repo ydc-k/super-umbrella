@@ -1,21 +1,22 @@
 <!DOCTYPE html5>
-<html lang=â€œjaâ€>
+<html lang=gjah>
 
 <head>
-    <metahttp-equiv="content-type" content="text/html; charset="UTF-8">
+    <metahttp-equiv="content-type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>ç™ºæ³¨ãƒšãƒ¼ã‚¸</title>
+    <title>”­’ƒy[ƒW</title>
 	 <link rel="shortcut icon" href="image/nazobu.jpg" >
-	<!-- jQueryæœ¬ä½“ã®èª­ã¿è¾¼ã¿ -->
-	 <link rel="stylesheet" href="index.css"ã€€type="text/css" media="all">
+	<!-- jQuery–{‘Ì‚Ì“Ç‚İ‚İ -->
+	 <link rel="stylesheet" href="index.css"@type="text/css" media="all">
+	 <script src="index.js" defer></script>
 
-<!-- ï¼ƒãƒªãƒ³ã‚¯ã®ã‚¹ãƒ ãƒ¼ã‚ºã‚¹ã‚¯ãƒ­ãƒ¼ãƒ« -->
+<!-- ”ƒŠƒ“ƒN‚ÌƒXƒ€[ƒYƒXƒNƒ[ƒ‹ -->
 <script>
 $(function(){
-   // #ã§å§‹ã¾ã‚‹ãƒªãƒ³ã‚¯ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ãŸã‚‰å®Ÿè¡Œã•ã‚Œã¾ã™
+   // #‚Ån‚Ü‚éƒŠƒ“ƒN‚ğƒNƒŠƒbƒN‚µ‚½‚çÀs‚³‚ê‚Ü‚·
    $('a[href^=#]').click(function() {
-      // ã‚¹ã‚¯ãƒ­ãƒ¼ãƒ«ã®é€Ÿåº¦
-      var speed = 400; // ãƒŸãƒªç§’ã§è¨˜è¿°
+      // ƒXƒNƒ[ƒ‹‚Ì‘¬“x
+      var speed = 400; // ƒ~ƒŠ•b‚Å‹Lq
       var href= $(this).attr("href");
       var target = $(href == "#" || href == "" ? 'html' : href);
       var position = target.offset().top;
@@ -31,14 +32,14 @@ $(function(){
 
 <header class="header">
 
-      <!-- ãƒãƒ³ãƒãƒ¼ã‚¬ãƒ¼ãƒ¡ãƒ‹ãƒ¥ãƒ¼éƒ¨åˆ† -->
+      <!-- ƒnƒ“ƒo[ƒK[ƒƒjƒ…[•”•ª -->
       <div class="nav">
         
-        <!-- ãƒãƒ³ãƒãƒ¼ã‚¬ãƒ¼ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã®è¡¨ç¤ºãƒ»éè¡¨ç¤ºã‚’åˆ‡ã‚Šæ›¿ãˆã‚‹ãƒã‚§ãƒƒã‚¯ãƒœãƒƒã‚¯ã‚¹ -->
+        <!-- ƒnƒ“ƒo[ƒK[ƒƒjƒ…[‚Ì•\¦E”ñ•\¦‚ğØ‚è‘Ö‚¦‚éƒ`ƒFƒbƒNƒ{ƒbƒNƒX -->
         <input id="drawer_input" class="drawer_hidden" type="checkbox">
 	<img src="image/info.png" class="infomation">
 
-        <!-- ãƒãƒ³ãƒãƒ¼ã‚¬ãƒ¼ã‚¢ã‚¤ã‚³ãƒ³ -->
+        <!-- ƒnƒ“ƒo[ƒK[ƒAƒCƒRƒ“ -->
 	<label for="drawer_input" class="drawer_open"><span></span></label>
 	<label class="drawer_open2"><span></span></label>
 
@@ -50,7 +51,8 @@ $(function(){
 
 <div class="main">
 
-	<p class="bun">ç™ºé€ã™ã‚‹ã‚‚ã®ã‚’é¸ã³ã€<br>ç™ºé€ãƒœã‚¿ãƒ³ã‚’æŠ¼ã—ã¾ã—ã‚‡ã†ã€‚</p>
+	<p class="bun">”­‘—‚·‚é‚à‚Ì‚ğ‘I‚ÑA<br>”­‘—ƒ{ƒ^ƒ“‚ğ‰Ÿ‚µ‚Ü‚µ‚å‚¤B</p>
+	<p class="start-bun">Œ»İA”­’‚ª@<font class="number">4</font>@Œ“Í‚¢‚Ä‚¢‚Ü‚·B</p>
 	<div class="nazo">
 	<img src="image/nazo3.png" class="nazo">
 	</div>
@@ -84,7 +86,7 @@ $(function(){
 <div class="send-button">
 <input type="button" id="send" onClick="link()" style="display:none">
 
-<label class="label-send" for="send"><span>ç™ºé€</span></label>
+<label class="label-send" for="send"><span>”­‘—</span></label>
 </div>
 </div>
 
@@ -98,9 +100,6 @@ $(function(){
 
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="nazo3.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="nazo3.js"></script>
   </body>
-
-
-
 

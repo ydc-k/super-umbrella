@@ -1,21 +1,22 @@
 <!DOCTYPE html5>
-<html lang=â€œjaâ€>
+<html lang=gjah>
 
 <head>
-    <metahttp-equiv="content-type" content="text/html; charset="UTF-8">
+    <metahttp-equiv="content-type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>ç™ºæ³¨ãƒšãƒ¼ã‚¸</title>
+    <title>”­’ƒy[ƒW</title>
 	 <link rel="shortcut icon" href="image/nazobu.jpg" >
-	<!-- jQueryæœ¬ä½“ã®èª­ã¿è¾¼ã¿ -->
-	 <link rel="stylesheet" href="index.css"ã€€type="text/css" media="all">
+	<!-- jQuery–{‘Ì‚Ì“Ç‚İ‚İ -->
+	 <link rel="stylesheet" href="index.css"@type="text/css" media="all">
+	 <script src="index.js" defer></script>
 
-<!-- ï¼ƒãƒªãƒ³ã‚¯ã®ã‚¹ãƒ ãƒ¼ã‚ºã‚¹ã‚¯ãƒ­ãƒ¼ãƒ« -->
+<!-- ”ƒŠƒ“ƒN‚ÌƒXƒ€[ƒYƒXƒNƒ[ƒ‹ -->
 <script>
 $(function(){
-   // #ã§å§‹ã¾ã‚‹ãƒªãƒ³ã‚¯ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ãŸã‚‰å®Ÿè¡Œã•ã‚Œã¾ã™
+   // #‚Ån‚Ü‚éƒŠƒ“ƒN‚ğƒNƒŠƒbƒN‚µ‚½‚çÀs‚³‚ê‚Ü‚·
    $('a[href^=#]').click(function() {
-      // ã‚¹ã‚¯ãƒ­ãƒ¼ãƒ«ã®é€Ÿåº¦
-      var speed = 400; // ãƒŸãƒªç§’ã§è¨˜è¿°
+      // ƒXƒNƒ[ƒ‹‚Ì‘¬“x
+      var speed = 400; // ƒ~ƒŠ•b‚Å‹Lq
       var href= $(this).attr("href");
       var target = $(href == "#" || href == "" ? 'html' : href);
       var position = target.offset().top;
@@ -31,18 +32,34 @@ $(function(){
 
 
 
-<div class="clear">
+<div class="main">
 
-	<p class="bun">ã‚¨ã‚¯ã‚¹ãƒˆãƒ©ã‚‚ï¼ï¼Ÿ</p>
-	<p class="bun">ã‚„ã°ï¼</p>
+	<p class="bun"><img src="image/exclear.png" class="nazo"></p>
 
-	
+	<p class="start-bun">‘S‚Ä‚Ì”­’ì‹Æ‚ªŠ®—¹‚µ‚½I</p>
+	<p class="start-bun">‰º‚Ìƒ{ƒ^ƒ“‚©‚çŠ´‘z‚ğƒ|ƒXƒg‚Å‚«‚Ü‚·B<br>¦ƒNƒŠƒA‰æ‘œ‚Í“Še‰Â”\‚Å‚·B<br>¦‚±‚êˆÈã‚Ì‰B‚µ—v‘f‚Í‚ ‚è‚Ü‚¹‚ñB</p>
+
+<div class="send-button">
+
+<input type="button" id="tweet" onClick="link()" style="display:none">
+
+<label class="post" for="tweet"><span>Š´‘z‚ğƒ|ƒXƒg</span></label>
+
 </div>
 
 
-<input type="button" id="send" onClick="link()" style="display:none">
+	<p class="clear-bun">‚º‚Ğ‰º‹L‚Ìƒ{ƒ^ƒ“‚©‚çA</p>
+	<p class="clear-bun">ƒAƒ“ƒP[ƒg‚Ì‰ñ“š‚É‚²‹¦—Í‚­‚¾‚³‚¢B</p>
 
-<label class="play-ex" for="send"><span>ä¿ºãŸã¡ã®å®Ÿå®¶ã«è¡Œã</span></label>
+<div class="send-button">
+
+<input type="button" id="finish" onClick="link()" style="display:none">
+
+<label class="play-ex" for="finish"><span>ƒAƒ“ƒP[ƒg‚É‰ñ“š</span></label>
+
+</div>
+
+</div>
 
 
 
@@ -55,6 +72,4 @@ $(function(){
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script type="text/javascript" src="clearex.js"></script>
   </body>
-
-
 

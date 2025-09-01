@@ -42,18 +42,18 @@ text-align: center;
 width: 80%;
 }
 
-/* ã“ã“ã‹ã‚‰ä¸‹ãŒãƒãƒ³ãƒãƒ¼ã‚¬ãƒ¼ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã«é–¢ã™ã‚‹CSS */
+/* ‚±‚±‚©‚ç‰º‚ªƒnƒ“ƒo[ƒK[ƒƒjƒ…[‚ÉŠÖ‚·‚éCSS */
 
 .icon {
 background: #4169e1;
 }
   
-/* ãƒã‚§ãƒƒã‚¯ãƒœãƒƒã‚¯ã‚¹ã‚’éè¡¨ç¤ºã«ã™ã‚‹ */
+/* ƒ`ƒFƒbƒNƒ{ƒbƒNƒX‚ğ”ñ•\¦‚É‚·‚é */
 .drawer_hidden {
   display: none;
 }
 
-/* ãƒãƒ³ãƒãƒ¼ã‚¬ãƒ¼ã‚¢ã‚¤ã‚³ãƒ³ã®è¨­ç½®ã‚¹ãƒšãƒ¼ã‚¹ */
+/* ƒnƒ“ƒo[ƒK[ƒAƒCƒRƒ“‚Ìİ’uƒXƒy[ƒX */
 .drawer_open {
   position: absolute;
   right: 50px;
@@ -69,7 +69,7 @@ background: #4169e1;
   z-index: 99;
 }
 
-/* ãƒãƒ³ãƒãƒ¼ã‚¬ãƒ¼ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã®ã‚¢ã‚¤ã‚³ãƒ³ */
+/* ƒnƒ“ƒo[ƒK[ƒƒjƒ…[‚ÌƒAƒCƒRƒ“ */
 .drawer_open span,
 .drawer_open span:before,
 .drawer_open span:after {
@@ -84,7 +84,7 @@ background: #4169e1;
 }
 
 .drawer_open2 span {
-ã€€content: '';
+@content: '';
   display: block;
   height: 40px;
   width: 40px;
@@ -94,12 +94,12 @@ background: #4169e1;
   position: absolute;
 }
 
-/* ä¸‰æœ¬ç·šã®ä¸€ç•ªä¸Šã®æ£’ã®ä½ç½®èª¿æ•´ */
+/* O–{ü‚Ìˆê”Ôã‚Ì–_‚ÌˆÊ’u’²® */
 .drawer_open span:before {
   bottom: 10px;
 }
 
-/* ä¸‰æœ¬ç·šã®ä¸€ç•ªä¸‹ã®æ£’ã®ä½ç½®èª¿æ•´ */
+/* O–{ü‚Ìˆê”Ô‰º‚Ì–_‚ÌˆÊ’u’²® */
 .drawer_open span:after {
   top: 10px;
 }
@@ -114,7 +114,7 @@ display: none;
 box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
 }
 
-/* ã‚¢ã‚¤ã‚³ãƒ³ãŒã‚¯ãƒªãƒƒã‚¯ã•ã‚ŒãŸã‚‰è‰²ã‚’å¤‰ãˆã‚‹ */
+/* ƒAƒCƒRƒ“‚ªƒNƒŠƒbƒN‚³‚ê‚½‚çF‚ğ•Ï‚¦‚é */
 #drawer_input:checked ~ .drawer_open span {
   background: #3E3A39;
 }
@@ -133,12 +133,11 @@ box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
 
 #drawer_input:checked ~ .infomation {
   display: block;
-ã€€transition: 1s;
+@transition: 1s;
 }
 
-
 .button {
-margin-left: -10px;
+margin-left: -5px;
 margin-top: 10px;
 text-align: center;
 width: 400px;
@@ -206,7 +205,7 @@ margin-right: 10px;
 margin-bottom: 10px;
 }
 .label-btn6{
-ã€€float: right;
+@float: right;
   padding: 10px 20px;
   background-color: #3E3A39;
   cursor: pointer;
@@ -391,21 +390,50 @@ display: inline-block;
     color: #666;
 }
 
+.clear-bun {
+size: 10px;
+text-align: center;
+}
+
+.normal-clear {
+font-size: 15px;
+margin-top: 50px;
+}
+
+.exstart-bun {
+opacity: 0;
+  visibility: hidden;
+  transition: all 1s;
+text-align: center;
+}
+
+.is-active {
+  opacity: 1;
+  visibility: visible;
+}
+
 .play-ex {
-display: block;
-padding: 0px -30px;
+display: inline-block;
+  padding: 5px 30px;
   background-color: #3E3A39;
   cursor: pointer;
   border-radius: 20px;
   box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
   color: #fff;
-ã€€font-size: 20px;
+}
+
+.post {
+display: inline-block;
+  padding: 5px 30px;
+  background-color: #1DA1F2;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
+  color: #fff;
 }
 
 .clear {
 font-size: 100px;
 color: #fff;
 }
-
-
 
