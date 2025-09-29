@@ -1,23 +1,23 @@
-//�`�F�b�N�{�b�N�X�̗v�f���擾
+//チェックボックスの要素を取得
 const checkboxes = document.querySelectorAll(".checkbox");
 
-//����
+//味見
 console.log(checkboxes[0]);
-//checkbox�N���X�������ŏ��̗v�f
-//���܂�<input type="checkbox" value="apple" class="checkbox">���擾�ł���
+//checkboxクラスがついた最初の要素
+//→つまり<input type="checkbox" value="apple" class="checkbox">が取得できる
 
 checkboxes.forEach(checkbox => {
   checkbox.addEventListener("change", () => {
-    //velue�Ƃ����ϐ��ɁA�擾�����i�܂�`�F�b�N���ꂽ�jinput�^�O��value�l��������񂲂Ƀ`�F�b�N�����ꂽ��A�uapple�v����������
+    //velueという変数に、取得した（つまりチェックされた）inputタグのvalue値を代入→りんごにチェックをいれたら、「apple」が代入される
     const value = checkbox.value;
-    //correspondingDiv�Ƃ����ϐ��ɁA�ϐ�value�Ɠ����N���X�������v�f���擾���đ������񂲂Ƀ`�F�b�N������遨apple��value�ɑ����.apple�̂����v�f���擾
+    //correspondingDivという変数に、変数valueと同じクラス名をもつ要素を取得して代入→りんごにチェックをいれる→appleがvalueに代入→.appleのついた要素を取得
     const correspondingDiv = document.querySelector(`.${value}`);
     
     if(checkbox.checked) {
-      //�`�F�b�N�{�b�N�X���I���̎�
+      //チェックボックスがオンの時
       correspondingDiv.classList.add("selected");
     } else {
-      //�`�F�b�N�{�b�N�X���I�t�̎�
+      //チェックボックスがオフの時
      correspondingDiv.classList.remove("selected");
     }
   });

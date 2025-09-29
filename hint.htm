@@ -1,22 +1,22 @@
 <!DOCTYPE html5>
-<html lang=�gja�h>
+<html lang=“ja”>
 
 <head>
     <metahttp-equiv="content-type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>�����y�[�W</title>
+    <title>発注ページ</title>
 	 <link rel="shortcut icon" href="image/nazobu.jpg" >
-	<!-- jQuery�{�̂̓ǂݍ��� -->
-	 <link rel="stylesheet" href="hint.css"�@type="text/css" media="all">
+	<!-- jQuery本体の読み込み -->
+	 <link rel="stylesheet" href="hint.css"　type="text/css" media="all">
 	 <script src="index.js" defer></script>
 
-<!-- �������N�̃X���[�Y�X�N���[�� -->
+<!-- ＃リンクのスムーズスクロール -->
 <script>
 $(function(){
-   // #�Ŏn�܂郊���N���N���b�N��������s����܂�
+   // #で始まるリンクをクリックしたら実行されます
    $('a[href^=#]').click(function() {
-      // �X�N���[���̑��x
-      var speed = 400; // �~���b�ŋL�q
+      // スクロールの速度
+      var speed = 400; // ミリ秒で記述
       var href= $(this).attr("href");
       var target = $(href == "#" || href == "" ? 'html' : href);
       var position = target.offset().top;
@@ -32,226 +32,226 @@ $(function(){
 
 <div class="main">
 
-	<p class="bun">���v�Ƌ����@�q���g�T�C�g</p>
+	<p class="bun">需要と供給　ヒントサイト</p>
 
-<label for="1"><p class="one">�������y�[�W�Ƀ��O�C������O</p></label>
+<label for="1"><p class="one">▼発注ページにログインする前</p></label>
 
 <span class="hint before">
-<label for="3"><p class="main-title">��1.����̓�</p></label>
+<label for="3"><p class="main-title">▼1.言語の謎</p></label>
 <span class="hint a">
-<p class="three" id="a">���ꂼ��p�󂷂��"her trust"��"start line"�ɂȂ�܂��B</p>
-<label for="4"><p class="title" id="a">��1.����̓�̓���</p></label>
+<p class="three" id="a">それぞれ英訳すると"her trust"と"start line"になります。</p>
+<label for="4"><p class="title" id="a">▼1.言語の謎の答え</p></label>
 </span>
 <span class="hint b">
-<p class="three" id="b">�p����J�^�J�i�Łu�n�[�g���X�g�v�u�X�^�[�g���C���v�Ɩ��߁A�ې��������ɓǂނƁu�g���X�g�v�ƂȂ�܂��B</p>
+<p class="three" id="b">英訳をカタカナで「ハートラスト」「スタートライン」と埋め、丸数字を順に読むと「トラスト」となります。</p>
 </span>
 
-<label for="5"><p class="main-title">��2.�G�̓�</p></label>
+<label for="5"><p class="main-title">▼2.絵の謎</p></label>
 <span class="hint c">
-<p class="three" id="c">���ꂼ��̊G�́u�F�v�Ɓu���̉ʕ����v���l���܂��傤�B</p>
-<label for="6"><p class="title" id="c">��2.�G�̓�̃q���g����</p></label>
+<p class="three" id="c">それぞれの絵の「色」と「何の果物か」を考えましょう。</p>
+<label for="6"><p class="title" id="c">▼2.絵の謎のヒント続き</p></label>
 </span>
 <span class="hint d">
-<p class="three" id="d">��ԏォ��l���܂��傤�B�G�́u�p�[�v���v�́u�O���[�v�v��\���Ă��܂��B�����āA�Ԗ��̐�́u�p�[���v���̐�́u�O���[�v��\���Ă���悤�ł��B</p>
-<label for="7"><p class="title" id="d">��2.�G�̓�̓���</p></label>
+<p class="three" id="d">一番上から考えましょう。絵は「パープル」の「グレープ」を表しています。そして、赤矢印の先は「パール」青矢印の先は「グレー」を表しているようです。</p>
+<label for="7"><p class="title" id="d">▼2.絵の謎の答え</p></label>
 </span>
 <span class="hint e">
-<p class="three" id="e">�H�̏ꏊ�́A�u�L�E�C�v����u�L�v������āu�E�C�v�A�s���N����u�s�v������āu���N�v���c��̂ŁA�����ēǂނƓ����́u�E�C���N�v�ƂȂ�܂��B</p>
+<p class="three" id="e">？の場所は、「キウイ」から「キ」を取って「ウイ」、ピンクから「ピ」を取って「ンク」が残るので、続けて読むと答えは「ウインク」となります。</p>
 </span>
 
-<label for="8"><p class="main-title">��3.����Ƃ�̓�</p></label>
+<label for="8"><p class="main-title">▼3.しりとりの謎</p></label>
 <span class="hint f">
-<p class="three" id="f">�����ɂ���Ƃ������������K�v������܂��B�u���v�ŏI��錾�t�������̂ŁA1�ڂ̌��t�́u�������v�ł���Ƃ킩��܂��B</p>
-<label for="9"><p class="title" id="f">��3.����Ƃ�̓�̓���</p></label>
+<p class="three" id="f">純粋にしりとりを完成させる必要があります。「そ」で終わる言葉が無いので、1つ目の言葉は「そそう」であるとわかります。</p>
+<label for="9"><p class="title" id="f">▼3.しりとりの謎の答え</p></label>
 </span>
 <span class="hint g">
-<p class="three" id="g">���ԂɂȂ��ƁA��������������ڂ�������Ă񂵁�����[�Ƃ��[�����������������������聨��傩����������ڂ��ƂȂ�܂��B�����Ԗڂ�2�����ڂ����ɓǂނƓ����́u���傦��v�ƂȂ�܂��B</p>
+<p class="three" id="g">順番につなぐと、そそう→うしんぼう→うんてんし→しょーとけーき→きこうたい→いえうつり→りょかっき→きんぼしとなります。偶数番目の2文字目を順に読むと答えは「しょえん」となります。</p>
 </span>
 
-<label for="10"><p class="main-title">��4.�Z���̓�</p></label>
+<label for="10"><p class="main-title">▼4.算数の謎</p></label>
 <span class="hint h">
-<p class="three" id="h">���������ɂ͓�������������܂��B�C���X�g�͏ォ��u�����v�u�����v�u�����v�̂悤�ł��B</p>
-<label for="11"><p class="title" id="h">��4.�Z���̓�̃q���g����</p></label>
+<p class="three" id="h">同じ数字には同じ文字が入ります。イラストは上から「いし」「くし」「えす」のようです。</p>
+<label for="11"><p class="title" id="h">▼4.算数の謎のヒント続き</p></label>
 </span>
 <span class="hint i">
-<p class="three" id="i">�w�i�ɂ���9�}�X�Ŗ��@�w����ꂻ���ł��B�܂��A�g���㉺���ɏ����L�тĂ��邱�Ƃ���A�����̕\�̉E�[��9�}�X�ł����肻���ł��B</p>
-<label for="12"><p class="title" id="i">��4.�Z���̓�̓���</p></label>
+<p class="three" id="i">背景にある9マスで魔法陣が作れそうです。また、枠が上下左に少し伸びていることから、何かの表の右端の9マスでもありそうです。</p>
+<label for="12"><p class="title" id="i">▼4.算数の謎の答え</p></label>
 </span>
 <span class="hint j">
-<p class="three" id="j">�w�i9�}�X��50���\�̂��`���s�̒�3�i�𔲂��o���Ă���B�����Ŗ��@�w�����A989�̏ꏊ�����ɓǂނƁu�������v�ƂȂ�܂��B</p>
+<p class="three" id="j">背景9マスは50音表のあ～さ行の中3段を抜き出している。ここで魔法陣を作り、989の場所を順に読むと「きせき」となります。</p>
 </span>
 
-<label for="13"><p class="main-title">��5.���݂��̓�</p></label>
+<label for="13"><p class="main-title">▼5.あみだの謎</p></label>
 <span class="hint k">
-<p class="three" id="k">���݂��ɏ]���āu�͂��������������v�Ƃ������������ёւ��܂��傤�B</p>
-<label for="14"><p class="title" id="k">��5.���݂��̓�̓���</p></label>
+<p class="three" id="k">あみだに従って「はかせいいせいか」という文字列を並び替えましょう。</p>
+<label for="14"><p class="title" id="k">▼5.あみだの謎の答え</p></label>
 </span>
 <span class="hint l">
-<p class="three" id="l">���݂��̎n�_8�Ɂu�͂��������������v�𓖂Ă͂߁A���݂��ɏ]���ĕ��ёւ���Ɓu���������͂������v�ƂȂ�̂ŁA�����́u�������v�ɂȂ�܂��B</p>
+<p class="three" id="l">あみだの始点8つに「はかせいいせいか」を当てはめ、あみだに従って並び替えると「せいかいはせかい」となるので、答えは「せかい」になります。</p>
 </span>
 
-<label for="15"><p class="main-title">��6.���̓�</p></label>
+<label for="15"><p class="main-title">▼6.詩の謎</p></label>
 <span class="hint m">
-<p class="three" id="m">�w���ɏ]���āA�����Ă���4�s�̍ŏ��ƍŌ�̕����������܂��傤�B�Ђ炪�Ȃɂ��Ă���l����Ƃ킩��₷���ł��B</p>
-<label for="16"><p class="title" id="m">��6.���̓�̓���</p></label>
+<p class="three" id="m">指示に従って、見えている4行の最初と最後の文字を消しましょう。ひらがなにしてから考えるとわかりやすいです。</p>
+<label for="16"><p class="title" id="m">▼6.詩の謎の答え</p></label>
 </span>
 <span class="hint n">
-<p class="three" id="n">�����Ă���4�s�̍ŏ��ƍŌ�̕����������Əォ��u���ƂƂ��v�u���̂��v�u�H�v�u�������v�u�������āv�ƂȂ�̂ŁA�H�ɓ��Ă͂܂�̂́u���傤�v�ƂȂ�܂��B</p>
+<p class="three" id="n">見えている4行の最初と最後の文字を消すと上から「おととい」「きのう」「？」「あした」「あさって」となるので、？に当てはまるのは「きょう」となります。</p>
 </span>
 
-<label for="17"><p class="main-title">��7.�}�`�̓�</p></label>
+<label for="17"><p class="main-title">▼7.図形の謎</p></label>
 <span class="hint o">
-<p class="three" id="o">��̐}�`�͐��Ώ̂̂悤�ł��B�����������ɒ��ڂ��Ă݂܂��傤�B</p>
-<label for="18"><p class="title" id="o">��7.�}�`�̓�̓���</p></label>
+<p class="three" id="o">謎の図形は線対称のようです。左半分だけに注目してみましょう。</p>
+<label for="18"><p class="title" id="o">▼7.図形の謎の答え</p></label>
 </span>
 <span class="hint p">
-<p class="three" id="p">�}�`�̍���������ƂЂ炪�ȂɂȂ��Ă���A�E�̃C���X�g��\�����t�ɂȂ��Ă��܂��B�����́u�Ƃ����v�ɂȂ�܂��B</p>
+<p class="three" id="p">図形の左だけ見るとひらがなになっており、右のイラストを表す言葉になっています。答えは「といし」になります。</p>
 </span>
 
-<label for="19"><p class="main-title">��8.���H�̓�</p></label>
+<label for="19"><p class="main-title">▼8.迷路の謎</p></label>
 <span class="hint q">
-<p class="three" id="q">�w���̒ʂ�ŒZ�ŒH��A�ʂ���������ǂ݂܂��傤�B�r�[�ƃV�[�̓A���t�@�x�b�g���w���Ă���킯�ł͂Ȃ������ł��B</p>
-<label for="20"><p class="title" id="q">��8.���H�̓�̓���</p></label>
+<p class="three" id="q">指示の通り最短で辿り、通った文字を読みましょう。ビーとシーはアルファベットを指しているわけではなさそうです。</p>
+<label for="20"><p class="title" id="q">▼8.迷路の謎の答え</p></label>
 </span>
 <span class="hint r">
-<p class="three" id="r">�r�[�i�I�j�A����V�[�i�C�j�֒H��ƁuMOON�v�̕�����ʂ�̂ŁA�����́u���v�ƂȂ�܂��B</p>
+<p class="three" id="r">ビー（蜂）、からシー（海）へ辿ると「MOON」の文字を通るので、答えは「つき」となります。</p>
 </span>
 
-<label for="21"><p class="main-title">��9.����ȓ�</p></label>
+<label for="21"><p class="main-title">▼9.難解な謎</p></label>
 <span class="hint s">
-<p class="three" id="s">�̃C���X�g�́u�����v�Ԃ̃C���X�g�́u�Ăv��\���Ă��܂��B</p>
-<label for="22"><p class="title" id="s">��9.����ȓ�̃q���g����</p></label>
+<p class="three" id="s">青のイラストは「きし」赤のイラストは「てつ」を表しています。</p>
+<label for="22"><p class="title" id="s">▼9.難解な謎のヒント続き</p></label>
 </span>
 <span class="hint t">
-<p class="three" id="t">��́u�C����`�֒H��ƃL�V���A�g����`�֒H��ƃe�c��ʂ�v�Ƃ������Ƃ�\���Ă��܂��B</p>
-<label for="23"><p class="title" id="t">��9.����ȓ�̓���</p></label>
+<p class="three" id="t">謎は「イからチへ辿るとキシを、トからチへ辿るとテツを通る」ということを表しています。</p>
+<label for="23"><p class="title" id="t">▼9.難解な謎の答え</p></label>
 </span>
 <span class="hint u">
-<p class="three" id="u">50���\���2�̕��������񂾂Ƃ��A�ʂ镶����ǂނƂ�����ł����B�C����g��H��Ɓu�����v�ƂȂ�܂��B</p>
+<p class="three" id="u">50音表上で2つの文字を結んだとき、通る文字を読むという謎でした。イからトを辿ると「くせ」となります。</p>
 </span>
 
-<label for="24"><p class="main-title">���܂Ƃߓ�</p></label>
+<label for="24"><p class="main-title">▼まとめ謎</p></label>
 <span class="hint v">
-<p class="three" id="v">�܂Ƃߓ��1���Ŋ������Ă��܂��B1�`4�̐����̉��ɂ��镶���́A�S�Ė��߂�9��̓����Ɋ܂܂�Ă���悤�ł��B</p>
-<label for="25"><p class="title" id="v">���܂Ƃߓ�̓���</p></label>
+<p class="three" id="v">まとめ謎は1枚で完結しています。1～4の数字の下にある文字は、全て埋めた9問の答えに含まれているようです。</p>
+<label for="25"><p class="title" id="v">▼まとめ謎の答え</p></label>
 </span>
 <span class="hint w">
-<p class="three" id="w">�Y�o���A1�`4�̐����́A���̉��̕����������̒��ɉ���o�ꂵ�Ă��邩��\���Ă��܂��B���̖@������Ԃ́u���v�́u���v���́u���v��\���̂ŁA�����́u���������v�ƂȂ�܂��B</p>
+<p class="three" id="w">ズバリ、1～4の数字は、その下の文字が答えの中に何回登場しているかを表しています。この法則から赤は「か」青は「せ」黄は「い」を表すので、答えは「せいかい」となります。</p>
 </span>
 </span>
 
-<label class="label-btn1" for="2"><p class="oneb">�������y�[�W�Ƀ��O�C��������</p></label>
+<label class="label-btn1" for="2"><p class="oneb">▼発注ページにログインした後</p></label>
 
 <span class="hint after">
-<label for="26"><p class="main-title">���e���v���E�B�[�N����̔���</p></label>
+<label for="26"><p class="main-title">▼テンプラウィークからの発注</p></label>
 <span class="hint x">
-<p class="three" id="x">��������A�܂�u�����v�ɂ҂�����ȓ�𑗂�܂��傤�B</p>
-<label for="27"><p class="title" id="x">���e���v���E�B�[�N�̉����@</p></label>
+<p class="three" id="x">初回公演、つまり「初演」にぴったりな謎を送りましょう。</p>
+<label for="27"><p class="title" id="x">▼テンプラウィークの解決法</p></label>
 </span>
 <span class="hint y">
-<p class="three" id="y">�u���傦��v�������ɂȂ��Ă��邵��Ƃ�̓�𑗂�܂��傤�B</p>
+<p class="three" id="y">「しょえん」が答えになっているしりとりの謎を送りましょう。</p>
 </span>
 
-<label for="28"><p class="main-title">��OCRAP����̔���</p></label>
+<label for="28"><p class="main-title">▼OCRAPからの発注</p></label>
 <span class="hint z">
-<p class="three" id="z">�u���Ѓ��X�g�v���Ђ炪�Ȃɂ��čl���܂��傤�B��͕��������ɑ��邱�Ƃ��ł��܂��B</p>
-<label for="29"><p class="title" id="z">��OCRAP�̉����@</p></label>
+<p class="three" id="z">「脅威ラスト」をひらがなにして考えましょう。謎は複数同時に送ることもできます。</p>
+<label for="29"><p class="title" id="z">▼OCRAPの解決法</p></label>
 </span>
 <span class="hint aa">
-<p class="three" id="aa">�u���傤�v�Ɓu�C���X�g�v�������ɂȂ�2��𑗂�܂��傤�B</p>
+<p class="three" id="aa">「きょう」と「イラスト」が答えになる2問を送りましょう。</p>
 </span>
 
-<label for="30"><p class="main-title">���߂����̃X�N�[������̔���</p></label>
+<label for="30"><p class="main-title">▼めだかのスクールからの発注</p></label>
 <span class="hint ab">
-<p class="three" id="ab">1�T�Ԃ̗v�f�A�܂�u���`���v��S�Ċ܂ޓ䂪�K�v�ł��B���̏����𖞂����Ă���΁A���̗v�f�́u�����v�łȂ��Ă��悳�����ł��B</p>
-<label for="31"><p class="title" id="ab">���߂����̃X�N�[���̉����@</p></label>
+<p class="three" id="ab">1週間の要素、つまり「月～日」を全て含む謎が必要です。この条件を満たしていれば、その要素は「文字」でなくてもよさそうです。</p>
+<label for="31"><p class="title" id="ab">▼めだかのスクールの解決法</p></label>
 </span>
 <span class="hint ac">
-<p class="three" id="ac">���A���A�΁A���A�؁A���A�y�̑S�ẴC���X�g���܂ށA���H�̓�𑗂�܂��傤�B</p>
+<p class="three" id="ac">日、月、火、水、木、金、土の全てのイラストを含む、迷路の謎を送りましょう。</p>
 </span>
 
-<label for="32"><p class="main-title">�������j���[����̔���</p></label>
+<label for="32"><p class="main-title">▼ワンニャーからの発注</p></label>
 <span class="hint ad">
-<p class="three" id="ad">���X�̓�ⓚ�������̂܂܎g�������ł͉����ł��Ȃ������ł��B��̑g�ݍ��킹�ŉ����ł��Ȃ��ł��傤���B</p>
-<label for="33"><p class="title" id="ad">�������j���[�̃q���g�̑���</p></label>
+<p class="three" id="ad">元々の謎や答えをそのまま使うだけでは解決できなさそうです。謎の組み合わせで解決できないでしょうか。</p>
+<label for="33"><p class="title" id="ad">▼ワンニャーのヒントの続き</p></label>
 </span>
 <span class="hint ae">
-<p class="three" id="ae">���A�ł͓�����Ȃ̂�"LOVE"�������ɂȂ������Ȃ��ł��傤���B</p>
-<label for="34"><p class="title" id="ae">�������j���[�̃q���g�̑���</p></label>
+<p class="three" id="ae">愛、では難しそうなので"LOVE"が答えになる謎を作れないでしょうか。</p>
+<label for="34"><p class="title" id="ae">▼ワンニャーのヒントの続き</p></label>
 </span>
 <span class="hint af">
-<p class="three" id="af">���H�̓���g����LOVE�𓱂������ł��B����1��g�ݍ��킹�邱�ƂŁA���H�̓�̎w����ω��������Ȃ��ł��傤���B</p>
-<label for="35"><p class="title" id="af">�������j���[�̉����@</p></label>
+<p class="three" id="af">迷路の謎を使えばLOVEを導けそうです。あと1問組み合わせることで、迷路の謎の指示を変化させられないでしょうか。</p>
+<label for="35"><p class="title" id="af">▼ワンニャーの解決法</p></label>
 </span>
 <span class="hint ag">
-<p class="three" id="ag">���H�̓�Ɠ���ȓ��g�ݍ��킹�邱�ƂŁA���H�̒��́u���炢�v�C���X�g����u�V�[�g�v�̃C���X�g�֒H��w���ɕω��ł������ł��B�������āuLOVE�i���j�v�𓚂��Ƃ��������o���܂��B</p>
+<p class="three" id="ag">迷路の謎と難解な謎を組み合わせることで、迷路の中の「からい」イラストから「シート」のイラストへ辿る指示に変化できそうです。こうして「LOVE（愛）」を答えとする謎を作り出せます。</p>
 </span>
 
-<label for="36"><p class="main-title">��RIDER����̔���</p></label>
+<label for="36"><p class="main-title">▼RIDERからの発注</p></label>
 <span class="hint ah">
-<p class="three" id="ah">��̈Ӑ}�Ƃ��Ắu�X�y�[�h�̏�A�n�[�g�̉E�A�_�C���̍��A�N���u�̉������ɓǂނ��ƂŁA4�����̓������������v�Ƃ������̂̂悤�ł��B</p>
-<label for="37"><p class="title" id="ah">��RIDER�̃q���g����</p></label>
+<p class="three" id="ah">謎の意図としては「スペードの上、ハートの右、ダイヤの左、クラブの下を順に読むことで、4文字の答えが導かれる」というもののようです。</p>
+<label for="37"><p class="title" id="ah">▼RIDERのヒント続き</p></label>
 </span>
 <span class="hint ai">
-<p class="three" id="ai">��̒��Ƀg�����v�̃}�[�N�Ɍ�������̂��܂܂����̂͂Ȃ��ł��傤���B�n�[�g�A�_�C�����킩��₷�����ł��B</p>
-<label for="38"><p class="title" id="ai">��RIDER�̃q���g����</p></label>
+<p class="three" id="ai">謎の中にトランプのマークに見えるものが含まれるものはないでしょうか。ハート、ダイヤがわかりやすそうです。</p>
+<label for="38"><p class="title" id="ai">▼RIDERのヒント続き</p></label>
 </span>
 <span class="hint aj">
-<p class="three" id="aj">����̓�Ƀn�[�g�A�}�`�̓�Ƀ_�C�����܂܂�Ă��܂��B���E�ɑΉ����镶�����E���ƁA�����́u����񁜁v�ɂȂ肻���ł��B</p>
-<label for="39"><p class="title" id="aj">��RIDER�̃q���g����</p></label>
+<p class="three" id="aj">言語の謎にハート、図形の謎にダイヤが含まれています。左右に対応する文字を拾うと、答えは「●らん●」になりそうです。</p>
+<label for="39"><p class="title" id="aj">▼RIDERのヒント続き</p></label>
 </span>
 <span class="hint ak">
-<p class="three" id="ak">�����Ȃ��Ă���ƁA�����́u�Ƃ��Ձv�ɂ������ł��ˁB�c��̃X�y�[�h�ƃN���u�́A�t�ɏE���ׂ������ł���u�Ɓv�u�Ձv��T�����ƂŌ������邩������܂���B</p>
-<label for="40"><p class="title" id="ak">��RIDER�̉����@</p></label>
+<p class="three" id="ak">こうなってくると、答えは「とらんぷ」にしたいですね。残りのスペードとクラブは、逆に拾うべき文字である「と」「ぷ」を探すことで見つけられるかもしれません。</p>
+<label for="40"><p class="title" id="ak">▼RIDERの解決法</p></label>
 </span>
 <span class="hint al">
-<p class="three" id="al">����ȓ�̋R�m�̃C���X�g�ɃX�y�[�h�A���̏�Ɂu�Ɓv�A����̓�Ƀn�[�g�A���̉E�Ɂu��v�A�}�`�̓�Ƀ_�C���A���̍��Ɂu��v�A�G�̓�̃u�h�E�̒��ɋt���܂̃N���u�A���̉��Ɂu�Ձv�̕����������邱�Ƃ��ł��܂��B�����4��̓䂪����΁u�g�����v�v�Ƃ��������𓱂��܂��B</p>
+<p class="three" id="al">難解な謎の騎士のイラストにスペード、その上に「と」、言語の謎にハート、その右に「ら」、図形の謎にダイヤ、その左に「ん」、絵の謎のブドウの中に逆さまのクラブ、その下に「ぷ」の文字を見つけることができます。これら4問の謎があれば「トランプ」という答えを導けます。</p>
 </span>
 
-<label for="41"><p class="main-title">��DETOXY����̔���</p></label>
+<label for="41"><p class="main-title">▼DETOXYからの発注</p></label>
 <span class="hint am">
-<p class="three" id="am">�X�P���g���ɂ�9�̌��t�����܂肻���ł��B�ł���΁A���9��K�v�����ł��B</p>
-<label for="42"><p class="title" id="am">��DETOXY�̃q���g����</p></label>
+<p class="three" id="am">スケルトンには9つの言葉が埋まりそうです。であれば、謎は9問必要そうです。</p>
+<label for="42"><p class="title" id="am">▼DETOXYのヒント続き</p></label>
 </span>
 <span class="hint an">
-<p class="three" id="an">5�ȏ�̔����ɂ͔�p���������Ă��܂��ADETOXY����͍���܂��B9����܂Ƃ߂đ�����@�͂Ȃ��ł��傤���B</p>
-<label for="43"><p class="title" id="an">��DETOXY�̃q���g����</p></label>
+<p class="three" id="an">5つ以上の発送には費用がかかってしまい、DETOXYさんは困ります。9問をまとめて送る方法はないでしょうか。</p>
+<label for="43"><p class="title" id="an">▼DETOXYのヒント続き</p></label>
 </span>
 <span class="hint ao">
-<p class="three" id="ao">9���ԗ��������̂�����΁A�����1���邾���ŉ����������ł��B</p>
-<label for="44"><p class="title" id="ao">��DETOXY�̃q���g����</p></label>
+<p class="three" id="ao">9問を網羅したものがあれば、それを1つ送るだけで解決しそうです。</p>
+<label for="44"><p class="title" id="ao">▼DETOXYのヒント続き</p></label>
 </span>
 <span class="hint ap">
-<p class="three" id="ap">�Y�o���A�ژ^���̂��̂𑗂邱�Ƃ��ł���΁A1�̔�����9��𑗂邱�Ƃ��ł��܂��B�ژ^�𑗂���@���l���܂��傤�B</p>
-<label for="45"><p class="title" id="ap">��DETOXY�̃q���g����</p></label>
+<p class="three" id="ap">ズバリ、目録そのものを送ることができれば、1つの発送で9問を送ることができます。目録を送る方法を考えましょう。</p>
+<label for="45"><p class="title" id="ap">▼DETOXYのヒント続き</p></label>
 </span>
 <span class="hint aq">
-<p class="three" id="aq">������̂̑I����@��U��Ԃ�܂��傤�B���肽�����̂̍���ɂ���l�p���}�[�N��I�����邱�ƂŔ������s���Ă��܂����B�ژ^�̍���ɂ͂ǂ̂悤�ȃ}�[�N������ł��傤���B</p>
-<label for="46"><p class="title" id="aq">��DETOXY�̃q���g����</p></label>
+<p class="three" id="aq">送るものの選択方法を振り返りましょう。送りたいものの左上にある四角いマークを選択することで発送を行ってきました。目録の左上にはどのようなマークがあるでしょうか。</p>
+<label for="46"><p class="title" id="aq">▼DETOXYのヒント続き</p></label>
 </span>
 <span class="hint ar">
-<p class="three" id="ar">�ژ^�Ƃ��������́u�ځv�̕������A���̃}�[�N�ɂ�����܂��B�}�[�N�Ƒ�����Ȃ�΁A�p�ۂ̎l�p�ɉ�����3�{...�ǂ����Ō��o���͂Ȃ��ł��傤���B</p>
-<label for="47"><p class="title" id="ar">��DETOXY�̉����@</p></label>
+<p class="three" id="ar">目録という文字の「目」の文字が、そのマークにあたります。マークと捉えるならば、角丸の四角に横線が3本...どこかで見覚えはないでしょうか。</p>
+<label for="47"><p class="title" id="ar">▼DETOXYの解決法</p></label>
 </span>
 <span class="hint as">
-<p class="three" id="as">�����y�[�W�̉E��ɂ��郁�j���[�{�^�����A�ژ^�̍���̃}�[�N�ƈ�v���Ă��܂��B���j���[�̃{�^���������Ĕ����{�^�����������ƂŁA�ژ^����9��̓���܂Ƃ߂Ĕ����ł��܂��B</p>
+<p class="three" id="as">発注ページの右上にあるメニューボタンが、目録の左上のマークと一致しています。メニューのボタンを押して発送ボタンを押すことで、目録ごと9問の謎をまとめて発送できます。</p>
 </span>
 
-<label for="48"><p class="main-title">���H�H�H����̔����iEX�j</p></label>
+<label for="48"><p class="main-title">▼？？？からの発注（EX）</p></label>
 <span class="hint at">
-<p class="three" id="at">���Ȃ��������I���������A���́u�܂Ƃߓ�v�������Ȃ��Ă��܂����悤�ł��B9��̓�������I�������ƁA�����ł���u���������v�𓱂����𑗂�K�v������܂��B</p>
-<label for="49"><p class="title" id="at">���[���ɂ����Ȃ��Ẵq���g����</p></label>
+<p class="three" id="at">あなたが解き終えた持ち帰り謎の「まとめ謎」が無くなってしまったようです。9問の謎を解き終えたあと、答えである「せいかい」を導ける謎を送る必要があります。</p>
+<label for="49"><p class="title" id="at">▼夕立にかさなってのヒント続き</p></label>
 </span>
 <span class="hint au">
-<p class="three" id="au">��������܂��܎����Ă���w�����ɂ͓����I�Șg�����Ă��܂��B����Ɏ����g�������͂Ȃ��ł��傤���B</p>
-<label for="50"><p class="title" id="au">���[���ɂ����Ȃ��Ẵq���g����</p></label>
+<p class="three" id="au">先方がたまたま持っている指示文には特徴的な枠がついています。これに似た枠がある謎はないでしょうか。</p>
+<label for="50"><p class="title" id="au">▼夕立にかさなってのヒント続き</p></label>
 </span>
 <span class="hint av">
-<p class="three" id="av">�����g�̂���䂪����������A���ۂɎw�����ɏ]���Ă݂܂��傤�B�䂪�ω����܂��B</p>
-<label for="51"><p class="title" id="av">���[���ɂ����Ȃ��Ẵq���g����</p></label>
+<p class="three" id="av">似た枠のある謎が見つかったら、実際に指示文に従ってみましょう。謎が変化します。</p>
+<label for="51"><p class="title" id="av">▼夕立にかさなってのヒント続き</p></label>
 </span>
 <span class="hint aw">
-<p class="three" id="aw">�ω��������ƁA����Ɏw���̂悤�Ȃ��̂��o�Ă��܂��B����9��͂��łɉ�����Ă���󋵂ł��邱�Ƃ��l���A����ɍŌ�̎w���ɏ]���ē����������邩���؂��Ă݂܂��傤�B</p>
+<p class="three" id="aw">変化したあと、さらに指示のようなものが出てきます。小謎9問はすでに解かれている状況であることを考え、さらに最後の指示に従って答えが導けるか検証してみましょう。</p>
 </span>
 </span>
 
@@ -326,4 +326,3 @@ $(function(){
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script type="text/javascript" src="hint.js"></script>
   </body>
-
