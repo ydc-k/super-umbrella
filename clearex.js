@@ -11,7 +11,7 @@ location.href = "https://x.com/home"
 
 finish.addEventListener('click', () => {
 
-location.href = "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%B3%E3%82%B1%E3%83%BC%E3%83%88"
+location.href = "https://docs.google.com/forms/d/e/1FAIpQLScAm2KA4X3Hf8N14Y2SkbNDppp6yXQ1pvDdzuoGQl33Gfa13w/viewform?usp=dialog"
 
 });
 
