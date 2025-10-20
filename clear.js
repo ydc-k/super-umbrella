@@ -9,7 +9,7 @@ button.addEventListener('click', () => {
 ex.classList.add('is-active');
 setTimeout(() => {
 location.href = '7kmodcr.htm';
-}, 1500)
+}, 1000)
 
 });
 

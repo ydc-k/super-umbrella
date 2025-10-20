@@ -7,23 +7,23 @@ var url = "https://ja.wikipedia.org/wiki/%E5%A4%A7%E4%B8%8D%E6%AD%A3%E8%A7%A3"
 
 button.addEventListener('click', () => {
 
-if (one.checked && eight.checked) {
+if (one.checked && five.checked) {
 alert("どうやら間違っているようだ");
-} else if (two.checked && eight.checked) {
+} else if (two.checked && five.checked) {
 alert("どうやら間違っているようだ");
-} else if (four.checked && eight.checked) {
+} else if (four.checked && five.checked) {
 alert("どうやら間違っているようだ");
-} else if (five.checked && eight.checked) {
+} else if (eight.checked && five.checked) {
 alert("どうやら間違っているようだ");
-} else if (six.checked && eight.checked) {
+} else if (six.checked && five.checked) {
 alert("どうやら間違っているようだ");
-} else if (seven.checked && eight.checked) {
+} else if (seven.checked && five.checked) {
 alert("どうやら間違っているようだ");
-} else if (three.checked && eight.checked) {
+} else if (three.checked && five.checked) {
 alert("どうやら間違っているようだ");
-} else if (nine.checked && eight.checked) {
+} else if (nine.checked && five.checked) {
 alert("どうやら間違っているようだ");
-} else if (eight.checked) {
+} else if (five.checked) {
 location.href = "4akihsk.htm"
 } else {
 alert("どうやら間違っているようだ");
